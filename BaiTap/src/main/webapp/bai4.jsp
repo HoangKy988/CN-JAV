@@ -23,7 +23,7 @@
 
       <div class="mb-3">
         <label for="inputAddress" class="form-label">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="036 Đường ...">
+        <input type="text" class="form-control" id="inputAddress" placeholder="123 Đường ABC">
       </div>
 
       <div class="mb-3">
