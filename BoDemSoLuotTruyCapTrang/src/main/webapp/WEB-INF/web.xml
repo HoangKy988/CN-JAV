@@ -1,0 +1,33 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+
+    <!-- Servlet -->
+    <servlet>
+        <servlet-name>VisitCounterServlet</servlet-name>
+        <servlet-class>com.example.VisitCounterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VisitCounterServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <!-- Filter -->
+    <filter>
+        <filter-name>VisitFilter</filter-name>
+        <filter-class>com.example.VisitFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>VisitFilter</filter-name>
+        <url-pattern>/home</url-pattern>
+    </filter-mapping>
+
+    <!-- Listener -->
+    <listener>
+        <listener-class>com.example.ContextListener</listener-class>
+    </listener>
+
+    <!-- Welcome File -->
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+    </welcome-file-list>
+
+</web-app>
