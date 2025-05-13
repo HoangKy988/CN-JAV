@@ -1,0 +1,33 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+         https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+
+    <!-- Servlet -->
+    <servlet>
+        <servlet-name>BMIServlet</servlet-name>
+        <servlet-class>com.example.BMIServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BMIServlet</servlet-name>
+        <url-pattern>/BMIServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Filter -->
+    <filter>
+        <filter-name>BMIInputFilter</filter-name>
+        <filter-class>com.example.BMIInputFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>BMIInputFilter</filter-name>
+        <url-pattern>/BMIInputFilter</url-pattern>
+    </filter-mapping>
+
+    <!-- Listener -->
+    <listener>
+        <listener-class>com.example.ContextListener</listener-class>
+    </listener>
+
+</web-app>

@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="test" path="/test" reloadable="true" source="org.eclipse.jst.jee.server:test"/><Context docBase="Ex" path="/Ex" reloadable="true" source="org.eclipse.jst.jee.server:Ex"/><Context docBase="BaiTap" path="/BaiTap" reloadable="true" source="org.eclipse.jst.jee.server:BaiTap"/><Context docBase="BoDem" path="/BoDem" reloadable="true" source="org.eclipse.jst.jee.server:BoDem"/></Host>
+      <Context docBase="test" path="/test" reloadable="true" source="org.eclipse.jst.jee.server:test"/><Context docBase="Ex" path="/Ex" reloadable="true" source="org.eclipse.jst.jee.server:Ex"/><Context docBase="BaiTap" path="/BaiTap" reloadable="true" source="org.eclipse.jst.jee.server:BaiTap"/><Context docBase="BoDem" path="/BoDem" reloadable="true" source="org.eclipse.jst.jee.server:BoDem"/><Context docBase="BaiKiemTraSo1_BMI" path="/BaiKiemTraSo1_BMI" reloadable="true" source="org.eclipse.jst.jee.server:BaiKiemTraSo1_BMI"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -1,6 +1,8 @@
 INDEX VERSION 1.134
 D:\Study\TaiLieu\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\464224718.index
 \BoDemSoLuotTruyCapTrang\src\main\java
+D:\Study\TaiLieu\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2467930288.index
+\BaiKiemTraSo1_BMI\src\main\java
 D:\Study\TaiLieu\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3574530585.index
 \Ex\src\main\java
 D:\Study\TaiLieu\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\267432911.index
