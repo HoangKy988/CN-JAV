@@ -22,7 +22,7 @@ public class BMIInputFilter implements Filter {
 
             if (chieuCao > 0 && canNang > 0) {
                 chain.doFilter(request, response);
-            } else {
+            } else {	
                 request.setAttribute("error", "Chiều cao và cân nặng phải lớn hơn 0.");
                 request.getRequestDispatcher("bmi.jsp").forward(request, response);
             }

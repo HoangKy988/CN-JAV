@@ -24,7 +24,7 @@
                 <p>Bạn thuộc dạng: Bình thường</p>
             </c:when>
             <c:otherwise>
-                <p>Bạn thuộc dạng: Thừa cân</p>
+                <p>Bạn thuộc dạng: Thừa cân</p>x
             </c:otherwise>
         </c:choose>
     </c:if>
